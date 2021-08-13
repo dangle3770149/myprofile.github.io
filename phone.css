@@ -1,0 +1,98 @@
+/* Navbar */
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Heading */
+.heading{
+    font-size: 2.5rem;
+}
+
+.heading{
+    font-size: 5rem;
+}
+
+/* About*/
+#about{
+    height: fit-content;
+}
+
+.profilecard{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 375px;
+    align-content: center;
+    margin: 30px;
+}
+.leftcard{
+    width: 100%;
+}
+
+.rightcard{
+    width: 100%;
+}
+
+/*subpage*/
+#subhome{
+    height: 1700px;
+}
+
+#subhome::before{
+    height: 3800px;
+}
+
+/*IT*/
+.subwhybox{
+    height: fit-content;
+    width: 375px;
+}
+
+/* Ideal */
+#subhomeideal{
+    height: 2700px;
+}
+
+#subhomeideal::before{
+    height: 5000px;
+}
+.subidealbox{
+    width: 375px;
+    height: fit-content;
+}
+.idealgallery img {
+    height: 348px;
+    width: 300px;
+  }
+
+
+/* Personal Profile */
+
+.subidealPP{
+    top: 30%;
+}
+.subidealPPbox{
+    height: fit-content;
+    width: 375px; 
+}
+
+.idealPPgallery img {
+    width: 375px;
+}
+
+
+/* Project Ideas*/
+
+#subhomeproject{
+    height: 3500px;
+}
+
+#subhomeproject::before{
+    height: 5550px;
+}
+
+.subprojectbox{
+    height: fit-content;
+    width: 375px;
+}
